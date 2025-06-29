@@ -13,6 +13,7 @@ model <- lm(Glucose ~ Pregnancies + BloodPressure + SkinThickness + Insulin + BM
 ui <- fluidPage(
   tags$head(
     tags$link(rel = "stylesheet", href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"),
+    tags$meta(name = "viewport", content = "width=device-width, initial-scale=1"),
     tags$style(HTML("
       body {
         background: #f5f8fc;
@@ -26,7 +27,7 @@ ui <- fluidPage(
         background-color: #ffffff;
         box-shadow: 0 8px 25px rgba(0,0,0,0.08);
         border-radius: 12px;
-        padding: 40px 60px;
+        padding: 40px 20px;
       }
       h1 {
         text-align: center;
@@ -44,16 +45,22 @@ ui <- fluidPage(
       }
       .input-row {
         display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
+        flex-direction: column;
+        gap: 30px;
+      }
+      @media(min-width: 768px) {
+        .input-row {
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: flex-start;
+        }
       }
       .left-panel {
         background-color: #f2f6fb;
         border-radius: 10px;
         padding: 25px;
-        width: 350px;
+        flex: 1;
         box-sizing: border-box;
-        margin-left: 10px;
       }
       .predict-btn {
         width: 100%;
@@ -71,9 +78,14 @@ ui <- fluidPage(
         color: white;
       }
       .right-panel {
-        flex-grow: 1;
-        padding-left: 40px;
-        margin-top: 30px;
+        flex: 2;
+        padding-left: 0;
+      }
+      @media(min-width: 768px) {
+        .right-panel {
+          padding-left: 40px;
+          margin-top: 30px;
+        }
       }
       .section-card {
         background-color: #f0f8ff;
@@ -81,7 +93,6 @@ ui <- fluidPage(
         border-left: 6px solid #0073e6;
         border-radius: 10px;
         margin-top: 20px;
-        margin-left: 10px;
       }
       .footer-note {
         text-align: center;
