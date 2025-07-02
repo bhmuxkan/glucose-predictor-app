@@ -11,6 +11,7 @@
 ![Built with ❤️](https://img.shields.io/badge/Built%20with-%E2%9D%A4-red)
 
 A Shiny-powered R app that turns real-world diabetes health data into a gentle, intelligent health assistant. It uses a linear regression model to estimate glucose levels from user inputs — visualized beautifully with Plotly.
+
 *Smarter Insights, Healthier Living*
 
 <video src="https://github.com/user-attachments/assets/3773a3e0-3c1f-4b56-bb92-80bf7cdc1ba3" controls width="100%"></video>
