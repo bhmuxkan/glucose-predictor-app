@@ -145,15 +145,5 @@ If you love thoughtful UI, health tech, or just want to say hi — I’d love to
 
 ---
 
-## 🌷 Thank You for Being Here
 
-Whether you stopped by to explore, learn, or simply feel inspired — thank you for taking a quiet moment with GlucoIntel.
-
-> Every ⭐ star, fork, or kind word means a lot.  
->  
-> Feel free to explore, contribute, or share what you think.
-
-Built with clarity, care, and purpose — by Muskan 💗
-
----
 
