@@ -14,7 +14,7 @@ A Shiny-powered R app that turns real-world diabetes health data into a gentle, 
 
 *Smarter Insights, Healthier Living*
 
-<video src="https://github.com/user-attachments/assets/3773a3e0-3c1f-4b56-bb92-80bf7cdc1ba3" controls width="100%"></video>
+<video src="https://github.com/user-attachments/assets/d3ab3860-9ebe-4b48-a6d3-0b1654643111" controls width="100%"></video>
 
 ---
 
